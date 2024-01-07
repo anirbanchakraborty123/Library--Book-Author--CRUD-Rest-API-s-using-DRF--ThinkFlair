@@ -32,13 +32,13 @@
 
 ## API Endpoints
 
- - AUTHOUR:
+ - AUTHOUR APIS:
 
 - List all authors: `GET v1/api/authors/`
 - Retrieve details of a specific author by ID: `GET v1/api/authors/<author_id>/`
 - Create a new author: `POST v1/api/authors/`
 
- - BOOK:
+ - BOOK APIS:
 
 - List all books: `GET v1/api/books/`
 - Retrieve details of a specific book by ID: `GET v1/api/books/<book_id>/`
@@ -46,6 +46,9 @@
 
 ## API documentation:
 
+- To access REST API's version-v1 docs:
 
+ 1. 'v1/swagger/'
+ 2. 'v1/redoc/'  
 
 
