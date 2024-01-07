@@ -23,8 +23,13 @@
     python manage.py makemigrations
     python manage.py migrate
     ```
+4. Create a superuser for accessing the Django admin:
 
-4. Run the development server:
+   ```bash
+    python manage.py createsuperuser
+    ```
+    
+5. Run the development server:
 
     ```bash
     python manage.py runserver
