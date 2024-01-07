@@ -7,7 +7,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/anirbanchakraborty123/Library--Book-Author--CRUD-Rest-API-s-using-DRF--ThinkFlair.git
+   git clone https://github.com/anirbanchakraborty123/Library_CRUD_API.git
    
    cd library
 
