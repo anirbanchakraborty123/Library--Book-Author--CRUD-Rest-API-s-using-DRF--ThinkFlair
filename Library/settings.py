@@ -143,6 +143,6 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     # ... your existing urlpatterns ...
-    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+    path('v1/swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui-v1-apis'),
+    path('v1/redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc-v1-apis'),
 ]
